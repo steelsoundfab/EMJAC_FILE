@@ -13,7 +13,7 @@
             <ColumnDefinition Width="214*"/>
         </Grid.ColumnDefinitions>
         <hc:SideMenu HorizontalAlignment="Left" Height="516" Margin="10,10,0,0" VerticalAlignment="Top" Width="120">
-            <hc:SideMenuItem Height="54"/>
+            <hc:SideMenuItem Height="54" Cursor="None"/>
             <hc:SideMenuItem Height="54"/>
             <hc:SideMenuItem Height="54"/>
             <hc:SideMenuItem Height="54"/>
@@ -26,7 +26,7 @@
         <hc:SearchBar Height="38" Margin="0,23,287,0" TextWrapping="Wrap" Text="SearchBar" VerticalAlignment="Top" HorizontalAlignment="Right" Width="172"/>
         <DataGrid HorizontalAlignment="Left" Height="136" Margin="474,62,0,0" VerticalAlignment="Top" Width="504" Grid.ColumnSpan="4"/>
         <ListBox HorizontalAlignment="Left" Height="136" Margin="356,62,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="164,86,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
+        <Label HorizontalAlignment="Left" Margin="164,86,0,0" VerticalAlignment="Top" Width="172" Height="30" Content="Label"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="506,220,0,0" VerticalAlignment="Top" Height="30" Width="50"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="0,220,0,0" VerticalAlignment="Top" Grid.Column="1" Height="30" Width="50"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="42.5,220,0,0" VerticalAlignment="Top" Grid.Column="2" Height="30" Width="50"/>
@@ -35,6 +35,6 @@
         <Label Content="Label" HorizontalAlignment="Left" Margin="164,134,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="474,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.1,0.117" Width="504" Height="52" Grid.ColumnSpan="4"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="164,178,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
-        <hc:CirclePanel Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="196" Margin="586,304,0,0" VerticalAlignment="Top" Width="220"/>
+        <hc:ImageViewer Grid.ColumnSpan="4" HorizontalAlignment="Left" Margin="547,276,0,0" VerticalAlignment="Top"/>
     </Grid>
 </Window>
