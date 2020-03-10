@@ -7,34 +7,37 @@
   WindowStyle="ToolWindow" Height="552.788">
     <Grid HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="988" Margin="0,0,0,-3">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="601*"/>
-            <ColumnDefinition Width="63*"/>
-            <ColumnDefinition Width="111*"/>
-            <ColumnDefinition Width="214*"/>
+            <ColumnDefinition Width="586*"/>
+            <ColumnDefinition Width="65*"/>
+            <ColumnDefinition Width="135*"/>
+            <ColumnDefinition Width="202*"/>
         </Grid.ColumnDefinitions>
-        <hc:SideMenu HorizontalAlignment="Left" Height="516" Margin="10,10,0,0" VerticalAlignment="Top" Width="120">
-            <hc:SideMenuItem Height="54" Cursor="None"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-        </hc:SideMenu>
-        <hc:SearchBar Height="38" Margin="0,23,287,0" TextWrapping="Wrap" Text="SearchBar" VerticalAlignment="Top" HorizontalAlignment="Right" Width="172"/>
         <DataGrid HorizontalAlignment="Left" Height="136" Margin="474,62,0,0" VerticalAlignment="Top" Width="504" Grid.ColumnSpan="4"/>
         <ListBox HorizontalAlignment="Left" Height="136" Margin="356,62,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label HorizontalAlignment="Left" Margin="164,86,0,0" VerticalAlignment="Top" Width="172" Height="30" Content="Label"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="506,220,0,0" VerticalAlignment="Top" Height="30" Width="50"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="0,220,0,0" VerticalAlignment="Top" Grid.Column="1" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="42.5,220,0,0" VerticalAlignment="Top" Grid.Column="2" Height="30" Width="50"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="43,220,0,0" VerticalAlignment="Top" Grid.Column="2" Height="30" Width="50"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="22,220,0,0" VerticalAlignment="Top" Grid.Column="3" Height="30" Width="50"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="100,220,0,0" VerticalAlignment="Top" Grid.Column="3" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="164,134,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
         <Label Content="Label" HorizontalAlignment="Left" Margin="474,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.1,0.117" Width="504" Height="52" Grid.ColumnSpan="4"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="164,178,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
-        <hc:ImageViewer Grid.ColumnSpan="4" HorizontalAlignment="Left" Margin="547,276,0,0" VerticalAlignment="Top"/>
+        <hc:RelativePanel HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="332">
+            <hc:SideMenu HorizontalAlignment="Left" Height="516" VerticalAlignment="Top" Width="122" Margin="0,0,-122,-516">
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+                <hc:SideMenuItem/>
+            </hc:SideMenu>
+            <hc:SearchBar HorizontalAlignment="Left" Height="21" TextWrapping="Wrap" Text="SearchBar" VerticalAlignment="Top" Width="173" Margin="149,10,-222,-1"/>
+            <Label Content="Label" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="173" Margin="149,56,-272,-56"/>
+            <Label Content="Label" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="173" Margin="149,101,-272,-101"/>
+            <Label Content="Label" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="173" Margin="149,151,-272,-151"/>
+            <Label Content="Label" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="173" Margin="149,199,-272,-199"/>
+        </hc:RelativePanel>
     </Grid>
 </Window>
