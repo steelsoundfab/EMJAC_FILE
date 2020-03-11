@@ -1,41 +1,17 @@
 ﻿<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:hc="https://handyorg.github.io/handycontrol"
-  Title="  FILE"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Name="intMain"
+  Title="Interface"
   Width="998.47"
   MinWidth ="200"
-  SizeToContent="Height"
-  WindowStyle="ToolWindow" Height="552.788">
-    <Grid HorizontalAlignment="Left" Height="526" VerticalAlignment="Top" Width="988" Margin="0,0,0,-3">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="601*"/>
-            <ColumnDefinition Width="63*"/>
-            <ColumnDefinition Width="111*"/>
-            <ColumnDefinition Width="214*"/>
-        </Grid.ColumnDefinitions>
-        <hc:SideMenu HorizontalAlignment="Left" Height="516" Margin="10,10,0,0" VerticalAlignment="Top" Width="120">
-            <hc:SideMenuItem Height="54" Cursor="None"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-            <hc:SideMenuItem Height="54"/>
-        </hc:SideMenu>
-        <hc:SearchBar Height="38" Margin="0,23,287,0" TextWrapping="Wrap" Text="SearchBar" VerticalAlignment="Top" HorizontalAlignment="Right" Width="172"/>
-        <DataGrid HorizontalAlignment="Left" Height="136" Margin="474,62,0,0" VerticalAlignment="Top" Width="504" Grid.ColumnSpan="4"/>
-        <ListBox HorizontalAlignment="Left" Height="136" Margin="356,62,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label HorizontalAlignment="Left" Margin="164,86,0,0" VerticalAlignment="Top" Width="172" Height="30" Content="Label"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="506,220,0,0" VerticalAlignment="Top" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="0,220,0,0" VerticalAlignment="Top" Grid.Column="1" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="42.5,220,0,0" VerticalAlignment="Top" Grid.Column="2" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="22,220,0,0" VerticalAlignment="Top" Grid.Column="3" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="100,220,0,0" VerticalAlignment="Top" Grid.Column="3" Height="30" Width="50"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="164,134,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="474,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.1,0.117" Width="504" Height="52" Grid.ColumnSpan="4"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="164,178,0,0" VerticalAlignment="Top" Width="172" Height="30"/>
-        <hc:ImageViewer Grid.ColumnSpan="4" HorizontalAlignment="Left" Margin="547,276,0,0" VerticalAlignment="Top"/>
-        <hc:DateTimePicker HorizontalAlignment="Left" Margin="164,403,0,0" VerticalAlignment="Top" Height="113" Width="75"/>
-    </Grid>
+  SizeToContent="Height" Height="558.288" Background="#FF0000A4" BorderThickness="2,5">
+    <Window.Foreground>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+            <GradientStop Color="Black" Offset="0"/>
+            <GradientStop Color="White" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Foreground>
+    <Menu x:Name="MenuBar" HorizontalAlignment="Left" Height="517" VerticalAlignment="Top" Width="35" Background="#FF3A3A3A" Visibility="Collapsed">
+        <Menu Height="100" Width="100"/>
+    </Menu>
 </Window>
